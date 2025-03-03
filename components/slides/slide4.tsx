@@ -50,32 +50,32 @@ export default function Slide4() {
         <h3 className="text-xl font-semibold mb-4">Hardware Architecture</h3>
         <div className="bg-gray-800/50 p-4 rounded-lg text-center">
         <div className="flex justify-center mb-8">
-        <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 w-full max-w-3xl">
+        <div className="bg-gray-900/60 p-6 rounded-lg border border-gray-700 w-full max-w-3xl">
           <div className="flex flex-col items-center">
             <div className="w-full flex justify-center items-center p-4 mb-4">
-              <div className="bg-blue-100 p-4 rounded-lg border border-blue-300 flex flex-col items-center">
-                <Antenna className="h-10 w-10 text-blue-700 mb-2" />
-                <div className="text-center font-medium">Antenna</div>
-                <div className="text-xs text-center text-gray-600">Telescopic/Dipole</div>
+              <div className="bg-blue-900/40 p-4 rounded-lg border border-blue-700 flex flex-col items-center">
+                <Antenna className="h-10 w-10 text-blue-400 mb-2" />
+                <div className="text-center font-medium text-blue-300">Antenna</div>
+                <div className="text-xs text-center text-gray-400">Telescopic/Dipole</div>
               </div>
-              <div className="h-0.5 w-16 bg-blue-400"></div>
-              <div className="bg-green-100 p-4 rounded-lg border border-green-300 flex flex-col items-center">
-                <Radio className="h-10 w-10 text-green-700 mb-2" />
-                <div className="text-center font-medium">RTL-SDR</div>
-                <div className="text-xs text-center text-gray-600">500kHz-1.7GHz</div>
+              <div className="h-0.5 w-16 bg-blue-600"></div>
+              <div className="bg-green-900/40 p-4 rounded-lg border border-green-700 flex flex-col items-center">
+                <Radio className="h-10 w-10 text-green-400 mb-2" />
+                <div className="text-center font-medium text-green-300">RTL-SDR</div>
+                <div className="text-xs text-center text-gray-400">500kHz-1.7GHz</div>
               </div>
-              <div className="h-0.5 w-16 bg-blue-400"></div>
-              <div className="bg-red-100 p-4 rounded-lg border border-red-300 flex flex-col items-center">
-                <Cpu className="h-10 w-10 text-red-700 mb-2" />
-                <div className="text-center font-medium">Raspberry Pi 4</div>
-                <div className="text-xs text-center text-gray-600">4GB RAM</div>
+              <div className="h-0.5 w-16 bg-blue-600"></div>
+              <div className="bg-red-900/40 p-4 rounded-lg border border-red-700 flex flex-col items-center">
+                <Cpu className="h-10 w-10 text-red-400 mb-2" />
+                <div className="text-center font-medium text-red-300">Raspberry Pi 4</div>
+                <div className="text-xs text-center text-gray-400">4GB RAM</div>
               </div>
             </div>
 
             <div className="w-full grid grid-cols-3 gap-4 mb-4">
-              <div className="bg-purple-100 p-3 rounded-lg border border-purple-300 flex flex-col items-center">
-                <div className="text-center font-medium">GQRX Software</div>
-                <div className="text-xs text-center text-gray-600">Signal Reception</div>
+              <div className="bg-purple-900/40 p-3 rounded-lg border border-purple-700 flex flex-col items-center">
+                <div className="text-center font-medium text-purple-300">GQRX Software</div>
+                <div className="text-xs text-center text-gray-400">Signal Reception</div>
               </div>
             </div>
           </div>

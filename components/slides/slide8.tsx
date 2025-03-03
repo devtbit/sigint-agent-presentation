@@ -64,6 +64,33 @@ export default function Slide8() {
           </div>
         </div>
       </div>
+            {/* New Accuracy Analysis Section */}
+            <div className="mt-8">
+        
+        <div className="bg-gray-900/60 p-6 rounded-xl border border-gray-800">
+          <h3 className="text-xl font-semibold mb-4">Sample Audio & Transcription</h3>
+          
+          <div className="mb-6">
+            <p className="text-gray-300 mb-2">Original audio sample:</p>
+            <audio controls className="w-full">
+              <source src="/sample.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          
+          <div className="bg-gray-800/50 p-4 rounded-lg mb-4">
+            <h4 className="text-lg font-medium mb-2 text-purple-300">Transcription Results:</h4>
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4 py-1">
+                <p className="text-gray-300 italic">"Ya la está cortizando Santa, ¿qué pasa aquí en el centro? Santa, que está bien trinqueado todo el centro Comenta Santa"</p>
+              </div>
+              <div className="border-l-4 border-yellow-500 pl-4 py-1">
+                <p className="text-gray-300 italic">" ¿Qué pasa? No, no he ido para allá."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

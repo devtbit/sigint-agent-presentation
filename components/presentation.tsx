@@ -13,11 +13,15 @@ import Slide7 from "@/components/slides/slide7"
 import Slide8 from "@/components/slides/slide8"
 import Slide9 from "@/components/slides/slide9"
 import Slide10 from "@/components/slides/slide10"
+import Slide11 from "@/components/slides/slide11"
+import Slide12 from "@/components/slides/slide12"
+import Slide13 from "@/components/slides/slide13"
 import Slide15 from "@/components/slides/slide15"
+import Slide16 from "@/components/slides/slide16"
 
 export default function Presentation() {
   const [currentSlide, setCurrentSlide] = useState(1)
-  const totalSlides = 11
+  const totalSlides = 15
 
   const nextSlide = () => {
     if (currentSlide < totalSlides) {
@@ -67,7 +71,15 @@ export default function Presentation() {
       case 10:
         return <Slide10 />
       case 11:
+        return <Slide11 />
+      case 12:
+        return <Slide12 />
+      case 13:
+        return <Slide13 />
+      case 14:
         return <Slide15 />
+      case 15:
+        return <Slide16 />
       default:
         return <Slide1 />
     }

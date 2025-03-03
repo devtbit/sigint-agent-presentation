@@ -16,7 +16,6 @@ export default function Slide1() {
       <p className="text-2xl text-gray-300 mb-8">A Proof-of-Concept for AI-Powered SIGINT Operator with Open Source tools</p>
 
       <div className="mt-12 text-gray-400">
-        <p className="text-xl">devtbit</p>
         <p>{new Date().toLocaleDateString()}</p>
       </div>
     </div>
